@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fast Feast - Home</title>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+    <!-- Link to External CSS -->
+    <link rel="stylesheet" href="home.css">
+</head>
+<body>
+
+    <!-- Header Section with Navbar -->
+    <header class="header">
+        <h1 class="logo">FastFeast</h1>
+        <nav class="navbar">
+            <ul>
+                <li><a href="file:///C:/Users/user/Downloads/FastFeast/contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Introduction Section -->
+    <section class="introduction">
+        <h2>🌍 SDG Goal 12: Responsible Consumption and Production</h2>
+        <p>FastFeast supports SDG Goal 12 by promoting sustainable cooking that reduces food waste and encourages efficient resource use. Our 5-ingredient recipes help users minimize excess ingredient purchases, while meal prep guides assist in planning meals smartly, reducing spoilage. By making cooking easy, affordable, and eco-friendly, FastFeast contributes to a healthier planet and a more responsible way of eating. ♻️</p>
+    </section>
+
+    <!-- Slideshow Section -->
+    <div class="slideshow-container">
+        <div class="slide fade">
+            <img src="C:\Users\user\Downloads\FastFeast\5 ingrediants meal recepies.jpg" alt="5-Ingredient Meals">
+        </div>
+        <div class="slide fade">
+            <img src="C:\Users\user\Downloads\FastFeast\save time.jpg" alt="10-Minute Recipes">
+        </div>
+        <div class="slide fade">
+            <img src="C:\Users\user\Downloads\FastFeast\meal weekly plan.jpg" alt="Meal Preparation">
+        </div>
+    </div>
+
+    <!-- Recipes Section -->
+    <section class="recipes">
+        <div class="card">
+            <img src="C:\Users\user\Downloads\FastFeast\5 ingrediants meal recepies.jpg" alt="5-Ingredient Meals">
+            <div class="card-content">
+                <h3>5-Ingredient Meals</h3>
+                <p>Simple and delicious meals with just 5 ingredients.</p>
+                <a href="file:///C:/Users/user/Downloads/FastFeast/5%20ingrediants%20meal.html">View Recipes</a>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="C:\Users\user\Downloads\FastFeast\save time.jpg" alt="10-Minute Recipes">
+            <div class="card-content">
+                <h3>10-Minute Recipes</h3>
+                <p>Quick and easy meals ready in 10 minutes or less.</p>
+                <a href="file:///C:/Users/user/Downloads/FastFeast/10%20mins%20cooking%20hacks.html">View Recipes</a>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="C:\Users\user\Downloads\FastFeast\meal weekly plan.jpg" alt="Meal Preparation">
+            <div class="card-content">
+                <h3>Meal Preparation</h3>
+                <p>Plan and prep your meals for a stress-free week.</p>
+                <a href="file:///C:/Users/user/Downloads/FastFeast/meal%20preparation%20guide.html">View Guide</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Information -->
+    <div class="contact-container">
+        <div class="contact-info">
+            <h2>Contact Information</h2>
+            <p><strong>Name:</strong> Mounika Ainamilli </p>
+            <p><strong>Reg No:</strong> 21MIS1008</p>
+            <p><strong>Contact No:</strong> 9876543210 </p>
+        </div>
+        <div class="contact-image">
+            <img src="C:\Users\user\Downloads\FastFeast\mouniiiii.jpg" alt="Mounika Ainamilli">
+        </div>
+    </div>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <p>&copy; 2025 FastFeast. All rights reserved.</p>
+        <div class="social-icons">
+            <a href="#">Facebook</a> |
+            <a href="#">Instagram</a> |
+            <a href="#">Twitter</a>
+        </div>
+    </footer>
+
+    <!-- JavaScript for Slideshow -->
+    <script>
+        let slideIndex = 0;
+        function showSlides() {
+            let slides = document.querySelectorAll(".slide");
+            slides.forEach(slide => slide.style.display = "none");
+            slideIndex++;
+            if (slideIndex > slides.length) { slideIndex = 1 }
+            slides[slideIndex - 1].style.display = "block";
+            setTimeout(showSlides, 3000); // Change image every 3 seconds
+        }
+        showSlides();
+    </script>
+</body>
+</html>
