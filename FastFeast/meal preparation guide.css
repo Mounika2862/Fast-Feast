@@ -1,0 +1,113 @@
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+}
+
+/* Header Section */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 5%;
+    background-color: #bd54b1;
+    color: white;
+}
+
+.logo {
+    font-size: 1.8rem;
+    font-weight: 600;
+    align-items: center;
+}
+
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navbar ul li {
+    margin-left: 20px;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+/* Meal Plan Section */
+.meal-plan {
+    text-align: center;
+    padding: 40px 5%;
+}
+
+.meal-plan h2 {
+    font-size: 2rem;
+    color: #bd54b1;
+}
+
+.meal-plan p {
+    font-size: 1.2rem;
+    color: #555;
+}
+
+/* Table Styles */
+.table-container {
+    overflow-x: auto;
+    margin-top: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+thead {
+    background-color: #bd54b1;
+    color: white;
+}
+
+thead th {
+    padding: 15px;
+    font-size: 1.2rem;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+tbody tr:hover {
+    background-color: #ffdab9;
+    transition: 0.3s;
+}
+
+td {
+    padding: 12px;
+    text-align: center;
+    font-size: 1.1rem;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Footer Section */
+.footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+    margin-top: 40px;
+}
+
+.social-icons a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+    font-weight: bold;
+}

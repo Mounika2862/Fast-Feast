@@ -1,0 +1,103 @@
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fffaf0;
+}
+
+/* Header */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #bd54b1;
+    padding: 15px 20px;
+    color: white;
+}
+
+.logo {
+    font-size: 1.8em;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+}
+
+.navbar ul li {
+    margin: 0 15px;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Introduction */
+.intro {
+    text-align: center;
+    padding: 30px;
+    background-color: #ffe4b5;
+}
+
+/* Hacks Section */
+.hacks {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.hack-card {
+    background: white;
+    width: 350px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: center;
+}
+
+.hack-card img {
+    width: 100%;
+    height: auto;
+}
+
+.card-content {
+    padding: 15px;
+}
+
+/* Tools Section */
+.tools {
+    text-align: center;
+    padding: 30px;
+    background: #ffdead;
+}
+
+.tools h2 {
+    font-size: 1.8em;
+    color: #333;
+}
+
+.tool-list {
+    list-style-type: none;
+    padding: 0;
+    font-size: 1.2em;
+}
+
+.tool-list li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    font-weight: 600;
+    color: #444;
+}
+/* Footer */
+.footer {
+    text-align: center;
+    padding: 10px;
+    background: #343a40;
+    color: white;
+    
